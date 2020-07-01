@@ -9,6 +9,9 @@ h1{
 h2{
     font-size: 30px;
 }
+p{
+    color: dimgray;
+}
 .heading-color{
 
                 color:salmon;
@@ -20,5 +23,68 @@ h2{
     padding-left: 2%;
 }
 .half-width img{
-    width:100%;
+    width: 30%;
+    float: left;
+    
+}
+
+.header-bg{
+    
+            background-image: url("images/header-bg.png");
+            background-repeat: no-repeat;
+          background-position: top ;
+}
+section{
+    height: 600px;
+    padding-bottom: 150px;
+}
+.link-button{
+
+            text-decoration: none;
+            background-image: linear-gradient(45deg,LightSalmon,Tomato);
+            
+            padding: 10px 20px;
+            border-radius: 5px;
+            color:white;
+            font-weight: 700;
+            
+}
+.biography{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+}
+
+.client-comment{
+
+                text-align: center;
+
+
+}
+.name-highlight{
+
+    font-weight: 700;
+}
+.communication{
+                width: fit-content;
+                margin:auto;
+                padding: 10px 20px;
+            border-radius: 5px;
+            color:white;
+            font-weight: 700;
+            
+            background-image: linear-gradient(45deg,rgb(255, 122, 173),rgb(255, 71, 172));
+            
+
+}
+.height{
+
+    height: 400px;
+    padding-bottom: 50px;
+}
+.My-Latest-Work{
+
+    background-image: url("images/footer-bg.png");
+}
+.footer{
+    text-align: center;
 }
